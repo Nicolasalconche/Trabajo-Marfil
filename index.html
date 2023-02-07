@@ -44,43 +44,93 @@
                 </div>
             </div>
         </header>
-        <section class="page-section bg-primary" id="servicios">
+        <section class="page-section bg-primary" >
             <div class="container px-4 px-lg-5">
-                <h2 class="text-white mt-0 text-center">Nuestros servicios</h2>    
-                <div id="portfolio">
-                    <div class="container-fluid p-0">
-                        <div class="row g-0">
-                            <div class="col-lg-4 col-sm-6">
-                                <a class="portfolio-box" href="./assets/img/portfolio/fullsize/beauty-and-spa (1).jpg" title="Masaje: $1600">
-                                    <img class="img-fluid" src="./assets/img/portfolio/fullsize/beauty-and-spa (1).jpg" alt="..." />
-                                    <div class="portfolio-box-caption">
-                                        <div class="project-category text-white-50">Servicio</div>
-                                        <div class="project-name">Masajes descontracturantes o relajantes</div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-lg-4 col-sm-6">
-                                <a class="portfolio-box" href="./assets/img/portfolio/fullsize/beautiful-woman-relaxing-in-spa-salon-with-hot-stones-on-body-beauty-treatment-therapy.jpg" title="Piedras: $1600">
-                                    <img class="img-fluid" src="./assets/img/portfolio/fullsize/beautiful-woman-relaxing-in-spa-salon-with-hot-stones-on-body-beauty-treatment-therapy.jpg" alt="..." />
-                                    <div class="portfolio-box-caption">
-                                        <div class="project-category text-white-50">Servicio</div>
-                                        <div class="project-name">Masajes con piedras calientes</div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-lg-4 col-sm-6">
-                                <a class="portfolio-box" href="./assets/img/portfolio/fullsize/the-picture-of-beautiful-woman-in-massage-salon-and-male-hands-close-up.jpg" title="Drenaje: $1800">
-                                    <img class="img-fluid" src="./assets/img/portfolio/fullsize/the-picture-of-beautiful-woman-in-massage-salon-and-male-hands-close-up.jpg" alt="..." />
-                                    <div class="portfolio-box-caption">
-                                        <div class="project-category text-white-50">Servicio</div>
-                                        <div class="project-name">Drenajes linfaticos</div>
-                                    </div>
-                                </a>
+                <h2 class="text-white mt-0 text-center" id="servicios">Nuestros servicios</h2>    
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                          <img src="./assets/img/portfolio/fullsize/beauty-and-spa (1).jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title text-center">Masajes descontracturantes o relajantes</h5>
+                          </div>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" id="boton" data-bs-target="#exampleModal">
+                              Información
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel ">Masajes descontracturantes o relajantes</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    Un masaje descontracturante es un tipo de masaje que tiene como objetivo liberar los músculos y las articulaciones para ayudarlos a funcionar en su nivel óptimo. El propósito del masaje es relajar y aflojar los músculos rígidos y tensos.
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                         </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100">
+                          <img src="./assets/img/portfolio/fullsize/beautiful-woman-relaxing-in-spa-salon-with-hot-stones-on-body-beauty-treatment-therapy.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title text-center">Masajes con piedras calientes</h5>
+                          </div>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" id="boton" data-bs-target="#exampleModal">
+                              Información
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel ">Masajes con piedras calientes</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      La temperatura de las piedras promueve la mejora de la circulación sanguínea, la eliminación de toxinas y la relajación de articulaciones y músculos rígidos o doloridos.
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./assets/img/portfolio/fullsize/the-picture-of-beautiful-woman-in-massage-salon-and-male-hands-close-up.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Drenajes linfaticos</h5>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" id="boton" data-bs-target="#exampleModal">
+                            Información
+                          </button>
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Drenajes linfaticos</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    El Drenaje Linfático Manual es una técnica de masaje terapéutico que busca drenar la linfa para eliminar toxinas, mejorar el sistema inmune y aumentar el metabolismo.
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
                     </div>
-                </div>
-            </div>
+                  </div>
+            </div>        
         </section>
         <div>
             <img class="img-fluid" src="./assets/img/portfolio/fullsize/formaPagos.jpg" alt="">
@@ -94,8 +144,8 @@
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-watch fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Horarios de trabajo</h3>
-                            <p class="text-muted mb-0">Lunes a Viernes: 17, 18, 19, 20 hs</p>
-                            <p class="text-muted mb-0">Sabado: 9, 10, 11, 12, 14, 15, 16 hs</p>
+                            <p class="text-muted mb-0">Lunes a Viernes: 17 hs a 20 hs</p>
+                            <p class="text-muted mb-0">Sabado: 9 hs a 12 hs y 14 hs a 16 hs</p>
                             <p class="text-muted mb-0">Domingo: Cerrado</p>
                         </div>
                     </div>
