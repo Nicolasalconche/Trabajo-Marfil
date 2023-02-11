@@ -11481,3 +11481,9 @@ header.masthead h1, header.masthead .h1 {
 #servicios{
   margin-bottom: 100px;
 }
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color: white;
+  font-size: small;
+}
