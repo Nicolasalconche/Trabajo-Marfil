@@ -1,0 +1,30 @@
+#logo{
+    width: 70px;
+    height: 70px;
+  }
+  
+  #piePagina{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  #boton{
+    background-color: #93BFCF;
+    color: white ;
+    border-radius: 0;
+    border: transparent;
+  }
+  
+  #servicios{
+    margin-bottom: 100px;
+  }
+  
+  a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+    font-size: small;
+  }
+  
